@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        .links a:link{
+            color: aqua;
+        }
+
+        .links a:visited{
+            color: lime;
+        }
+
+        .links a:hover{
+            color: red;
+    
+        }
+
+        .links a:active{
+            color: blueviolet;
+        }
+
+        .button button{
+            display: none;
+        }
+
+        .button:hover{
+            color: orangered;
+        }
+
+        .button:hover button{
+            display: inline-block;
+        }
+
+        .lorem p:first-child{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div class="links">
+        <a href="home.html">Anasayfa</a>
+        <a href="about.html">Hakkınızda </a>
+        <a href="products.html">Ürünlerimiz</a>
+        <a href="contact">İletişim</a>
+    </div>
+<br><br><br><br><br>
+    <div class="button">
+        Show More
+        <br>
+        <button>Click Me</button>
+    </div>
+
+    <br><br><br><br><br>
+
+    <div class="lorem">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>     
